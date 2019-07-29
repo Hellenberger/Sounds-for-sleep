@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D04ECC922DCDB5B00C9E991 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04ECC822DCDB5B00C9E991 /* AVFoundation.framework */; };
+		3D52960C22DCEB07008ACF51 /* moonIcon120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D52960B22DCEB07008ACF51 /* moonIcon120.jpg */; };
+		3D52960E22DCEBD6008ACF51 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D52960D22DCEBD6008ACF51 /* Launch Screen.storyboard */; };
+		3D52961022DCEC22008ACF51 /* moon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3D52960F22DCEC22008ACF51 /* moon.jpeg */; };
+		3D5C054122D6E6AE00807B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C054022D6E6AE00807B98 /* AppDelegate.swift */; };
+		3D5C054522D6E6AE00807B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C054422D6E6AE00807B98 /* ViewController.swift */; };
+		3D5C054822D6E6AE00807B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5C054622D6E6AE00807B98 /* Main.storyboard */; };
+		3D5C054B22D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C054922D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodeld */; };
+		3D5C056122D7D44500807B98 /* smallMoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5C056022D7D44500807B98 /* smallMoon.jpg */; };
+		3D5C056322D7D82300807B98 /* moonIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5C056222D7D82300807B98 /* moonIcon.jpg */; };
+		3DA1747122E78A39000959BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1747022E78A39000959BC /* Assets.xcassets */; };
+		3DA1747522E8DC78000959BC /* cowBellsLauterbrunnen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1747422E8DC78000959BC /* cowBellsLauterbrunnen.m4a */; };
+		3DA1747722E8DCA2000959BC /* riverChamonix.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1747622E8DCA2000959BC /* riverChamonix.m4a */; };
+		3DA1747922E8DCBF000959BC /* morecowBellsLauterbrunnen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1747822E8DCBF000959BC /* morecowBellsLauterbrunnen.m4a */; };
+		3DA1747B22E8E0FF000959BC /* waterfallLauterbrunnen .m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1747A22E8E0FF000959BC /* waterfallLauterbrunnen .m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D04ECC822DCDB5B00C9E991 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D52960B22DCEB07008ACF51 /* moonIcon120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonIcon120.jpg; sourceTree = "<group>"; };
+		3D52960D22DCEBD6008ACF51 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3D52960F22DCEC22008ACF51 /* moon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpeg; sourceTree = "<group>"; };
+		3D5C053D22D6E6AE00807B98 /* Sounds For Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sounds For Sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5C054022D6E6AE00807B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5C054422D6E6AE00807B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D5C054722D6E6AE00807B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D5C054A22D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sounds_For_Sleep.xcdatamodel; sourceTree = "<group>"; };
+		3D5C055122D6E6AF00807B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5C056022D7D44500807B98 /* smallMoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smallMoon.jpg; sourceTree = "<group>"; };
+		3D5C056222D7D82300807B98 /* moonIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moonIcon.jpg; sourceTree = "<group>"; };
+		3DA1747022E78A39000959BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		3DA1747422E8DC78000959BC /* cowBellsLauterbrunnen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cowBellsLauterbrunnen.m4a; sourceTree = "<group>"; };
+		3DA1747622E8DCA2000959BC /* riverChamonix.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = riverChamonix.m4a; sourceTree = "<group>"; };
+		3DA1747822E8DCBF000959BC /* morecowBellsLauterbrunnen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = morecowBellsLauterbrunnen.m4a; sourceTree = "<group>"; };
+		3DA1747A22E8E0FF000959BC /* waterfallLauterbrunnen .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "waterfallLauterbrunnen .m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5C053A22D6E6AE00807B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D04ECC922DCDB5B00C9E991 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D04ECC722DCDB5A00C9E991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D04ECC822DCDB5B00C9E991 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5C053422D6E6AE00807B98 = {
+			isa = PBXGroup;
+			children = (
+				3D5C053F22D6E6AE00807B98 /* Sounds For Sleep */,
+				3D5C053E22D6E6AE00807B98 /* Products */,
+				3D04ECC722DCDB5A00C9E991 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5C053E22D6E6AE00807B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5C053D22D6E6AE00807B98 /* Sounds For Sleep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5C053F22D6E6AE00807B98 /* Sounds For Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				3DA1747222E78A6A000959BC /* sounds */,
+				3D5C054022D6E6AE00807B98 /* AppDelegate.swift */,
+				3D5C054422D6E6AE00807B98 /* ViewController.swift */,
+				3D5C054622D6E6AE00807B98 /* Main.storyboard */,
+				3D52960D22DCEBD6008ACF51 /* Launch Screen.storyboard */,
+				3D52960B22DCEB07008ACF51 /* moonIcon120.jpg */,
+				3D52960F22DCEC22008ACF51 /* moon.jpeg */,
+				3D5C056022D7D44500807B98 /* smallMoon.jpg */,
+				3D5C056222D7D82300807B98 /* moonIcon.jpg */,
+				3DA1747022E78A39000959BC /* Assets.xcassets */,
+				3D5C055122D6E6AF00807B98 /* Info.plist */,
+				3D5C054922D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodeld */,
+			);
+			path = "Sounds For Sleep";
+			sourceTree = "<group>";
+		};
+		3DA1747222E78A6A000959BC /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3DA1747A22E8E0FF000959BC /* waterfallLauterbrunnen .m4a */,
+				3DA1747422E8DC78000959BC /* cowBellsLauterbrunnen.m4a */,
+				3DA1747822E8DCBF000959BC /* morecowBellsLauterbrunnen.m4a */,
+				3DA1747622E8DCA2000959BC /* riverChamonix.m4a */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5C053C22D6E6AE00807B98 /* Sounds For Sleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5C055422D6E6AF00807B98 /* Build configuration list for PBXNativeTarget "Sounds For Sleep" */;
+			buildPhases = (
+				3D5C053922D6E6AE00807B98 /* Sources */,
+				3D5C053A22D6E6AE00807B98 /* Frameworks */,
+				3D5C053B22D6E6AE00807B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sounds For Sleep";
+			productName = "Sounds For Sleep";
+			productReference = 3D5C053D22D6E6AE00807B98 /* Sounds For Sleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5C053522D6E6AE00807B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Howard Ellenberger";
+				TargetAttributes = {
+					3D5C053C22D6E6AE00807B98 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D5C053822D6E6AE00807B98 /* Build configuration list for PBXProject "Sounds For Sleep" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5C053422D6E6AE00807B98;
+			productRefGroup = 3D5C053E22D6E6AE00807B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5C053C22D6E6AE00807B98 /* Sounds For Sleep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5C053B22D6E6AE00807B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA1747B22E8E0FF000959BC /* waterfallLauterbrunnen .m4a in Resources */,
+				3D52960E22DCEBD6008ACF51 /* Launch Screen.storyboard in Resources */,
+				3DA1747522E8DC78000959BC /* cowBellsLauterbrunnen.m4a in Resources */,
+				3D52961022DCEC22008ACF51 /* moon.jpeg in Resources */,
+				3D5C056322D7D82300807B98 /* moonIcon.jpg in Resources */,
+				3DA1747122E78A39000959BC /* Assets.xcassets in Resources */,
+				3DA1747722E8DCA2000959BC /* riverChamonix.m4a in Resources */,
+				3D5C056122D7D44500807B98 /* smallMoon.jpg in Resources */,
+				3D5C054822D6E6AE00807B98 /* Main.storyboard in Resources */,
+				3DA1747922E8DCBF000959BC /* morecowBellsLauterbrunnen.m4a in Resources */,
+				3D52960C22DCEB07008ACF51 /* moonIcon120.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5C053922D6E6AE00807B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5C054522D6E6AE00807B98 /* ViewController.swift in Sources */,
+				3D5C054122D6E6AE00807B98 /* AppDelegate.swift in Sources */,
+				3D5C054B22D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D5C054622D6E6AE00807B98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5C054722D6E6AE00807B98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D5C055222D6E6AF00807B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D5C055322D6E6AF00807B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D5C055522D6E6AF00807B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_FILE = "Sounds For Sleep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howard.sleep.Sounds-For-Sleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D5C055622D6E6AF00807B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_FILE = "Sounds For Sleep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.howard.sleep.Sounds-For-Sleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5C053822D6E6AE00807B98 /* Build configuration list for PBXProject "Sounds For Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5C055222D6E6AF00807B98 /* Debug */,
+				3D5C055322D6E6AF00807B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5C055422D6E6AF00807B98 /* Build configuration list for PBXNativeTarget "Sounds For Sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5C055522D6E6AF00807B98 /* Debug */,
+				3D5C055622D6E6AF00807B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D5C054922D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D5C054A22D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodel */,
+			);
+			currentVersion = 3D5C054A22D6E6AE00807B98 /* Sounds_For_Sleep.xcdatamodel */;
+			path = Sounds_For_Sleep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D5C053522D6E6AE00807B98 /* Project object */;
+}
