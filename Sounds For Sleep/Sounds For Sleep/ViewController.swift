@@ -13,9 +13,12 @@ var sounds:[String] = []
 var sleepSoundPlayer = AVAudioPlayer()
 
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, AVAudioPlayerDelegate {
     
     @IBOutlet weak var soundsTable: UITableView!
+    
+    @IBOutlet weak var stopAudio: UIButton!
+    @IBOutlet weak var volumeSlider: UISlider!
     
     @IBAction func volumeSlider(_ sender: UISlider) {
         sleepSoundPlayer.volume = sender.value
@@ -45,29 +48,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
+        
         do
         {
             let audioPath = Bundle.main.path(forResource: sounds[indexPath.row], ofType: ".m4a")
             try sleepSoundPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            
             sleepSoundPlayer.play()
             sleepSoundPlayer.numberOfLoops = -1
+            volumeSlider.isEnabled = true
+            stopAudio.isEnabled = true
         }
         catch
         {
             print ("ERROR")
         }
-    }
-    
-    @IBAction func stopButton(_ sender: Any) {
-
-        if sleepSoundPlayer.isPlaying == true {
-            sleepSoundPlayer.stop()
-        }
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        getSoundNames()
     }
     
     func getSoundNames() {
@@ -93,5 +88,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         catch{
         }
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        getSoundNames()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        stopAudio.isEnabled = false
+        volumeSlider.isEnabled = false
+    }
+    
+    @IBAction func stopAudio(_ sender: Any) {
+     
+        sleepSoundPlayer.stop()
+    }
+    
+ 
 }
+
 
